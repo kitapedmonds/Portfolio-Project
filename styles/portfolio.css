@@ -1,11 +1,10 @@
-.root {
+:root {
   --primary-color: #ca965c;
+  --secondary-color: #f4dfba;
   --heading-font-family: "Playfair Display", serif;
-  --paragraph-font-family: " Poppins ", sans-serif;
+  --secondary-font-family: "Poppins", sans-serif;
 }
 h1,
-h2,
-h3,
 h4,
 h5,
 h6 {
@@ -18,14 +17,20 @@ body {
 h1 {
   font-size: 96px;
 }
+h2 {
+  font-size: 64px;
+  font-family: var(--secondary-font-family);
+}
 h3 {
-  font-family: var(--paragraph-font-family);
+  font-family: var(--secondary-font-family);
   font-weight: bold;
 }
 
 p {
   font-family: var(--paragraph-font-family);
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 .hero {
   background-color: #f4dfba;
@@ -35,16 +40,21 @@ p {
 }
 
 .hero p {
-  font-family: var(--paragraph-font-family);
+  font-family: var(--secondary-font-family);
   font-size: 35px;
   font-weight: normal;
 }
 
 .hero h3 {
-  font-family: var(--paragraph-font-family);
+  font-family: var(--secondary-font-family);
   font-size: 24px;
 }
 .btn-branding {
+  line-height: 30px;
+  padding: 15px 30px;
+}
+.btn-skintype {
+  background-color: var(--secondary-color);
   line-height: 30px;
   padding: 15px 30px;
 }
