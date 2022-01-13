@@ -58,3 +58,32 @@ p {
   line-height: 30px;
   padding: 15px 30px;
 }
+
+#tagline {
+  font-size: 50px;
+  font-weight: 34px;
+}
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 50px;
+  }
+  #tagline {
+    font-size: 20px;
+  }
+  p,
+  h2 {
+    margin-top: -40;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+}
