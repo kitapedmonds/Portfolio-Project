@@ -50,12 +50,12 @@ p {
   font-size: 24px;
 }
 
-.content-container h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.content-container h3 {
+.content h3 {
   font-size: 15px;
 }
 .content-container {
@@ -64,6 +64,13 @@ p {
 
 .content {
   margin: 30px;
+  text-align: center;
+}
+
+.content h5 {
+  font-family: var(--secondary-font-family);
+  line-height: 1;
+  margin-bottom: 0px;
 }
 .btn-branding {
   line-height: 30px;
