@@ -36,7 +36,7 @@ p {
   background-color: #f4dfba;
   text-align: center;
   border-radius: 4;
-  padding: 100px 0;
+  padding: 160px 20px;
 }
 
 .hero p {
@@ -48,6 +48,22 @@ p {
 .hero h3 {
   font-family: var(--secondary-font-family);
   font-size: 24px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h3 {
+  font-size: 15px;
+}
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section-content {
+  margin: 10px;
 }
 .btn-branding {
   line-height: 30px;
@@ -85,5 +101,13 @@ p {
     margin-top: -40;
     margin-bottom: 0px;
     padding: 0px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .about-section h1 {
+    font-size: 40px;
+    line-height: 1;
   }
 }
