@@ -59,7 +59,7 @@ p {
   font-size: 15px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content {
@@ -85,6 +85,22 @@ p {
 #tagline {
   font-size: 50px;
   font-weight: 34px;
+}
+.logo {
+  max-height: 40px;
+  max-width: 140px;
+}
+
+element.style {
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+.nav-item {
+  padding: 0 15px;
+}
+.active {
+  color: var(--primary-color) !important;
 }
 @media (max-width: 960px) {
   .project-description {
